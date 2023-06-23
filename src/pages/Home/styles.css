@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.text h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:#3b4ca8;
+}
+.center{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text h2{
+    width: 80%;
+}
+
+.text-box{
+    width: 45%;
+    margin: 2% auto;
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(64, 86, 146);
+}
+
+.wrapper{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.listagem, 
+.cadastrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+} 
+
+.mb-2{
+    margin-top: 25px;
+}
